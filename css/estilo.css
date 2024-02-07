@@ -68,6 +68,10 @@ nav.navbar-transparente {
     color: black;
 }
 
+.carousel-control-next, .carousel-control-prev {
+    width: 5%;
+}
+
 /* Estrutura de conteúdos */
 
 .caixa {
@@ -175,11 +179,9 @@ h3 {
  /* Small devices (576px and up) */
 
 @media (min-width: 576px) { 
-    h1 {
-        font-size: 3em;
-    }
+    
     .btn-custom {
-        margin: 10px 15px;
+        margin: 8px 10px;
     }
  }
 
@@ -187,6 +189,9 @@ h3 {
 @media (min-width: 768px) { 
     h1 {
         font-size: 4em;
+    }
+    .btn-custom {
+        margin: 8px 12px;
     }
  }
 
@@ -199,14 +204,12 @@ h3 {
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-    h1 {
-        font-size: 6em;
-    }
+    
  }
 
 /* XX-Large devices (larger desktops, 1400px and up)*/
 @media (min-width: 1400px) { 
     h1 {
-        font-size: 7em;
+        font-size: 6em;
     }
  }
